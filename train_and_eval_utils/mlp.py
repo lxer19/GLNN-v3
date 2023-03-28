@@ -3,6 +3,7 @@ import copy
 import torch
 import dgl
 from utils import set_seed
+from train_and_eval_utils.utils import print_debug_info, early_stop_counter, print_debug_info_inductive
 """
 1. Train and eval
 """
@@ -79,3 +80,190 @@ def eval_on_train_val_test_data_mlp(model, feats_train,labels_train,feats_val, l
         model, feats_test, labels_test, criterion, batch_size, evaluator
     )
     return loss_train, score_train,loss_val,score_val,loss_test,score_test
+
+
+
+def run_transductive_mlp(
+    conf,
+    model,
+    feats,
+    labels,
+    indices,
+    criterion,
+    evaluator,
+    optimizer,
+    logger,
+    loss_and_score,
+):
+    batch_size = conf["batch_size"]
+    idx_train, idx_val, idx_test = indices
+
+    feats_train, labels_train = feats[idx_train], labels[idx_train]
+    feats_val, labels_val = feats[idx_val], labels[idx_val]
+    feats_test, labels_test = feats[idx_test], labels[idx_test]
+
+    best_epoch, best_score_val, count = 0, 0, 0
+    for epoch in range(1, conf["max_epoch"] + 1):
+        loss = train_mini_batch(
+            model, feats_train, labels_train, batch_size, criterion, optimizer
+        )
+        if epoch % conf["eval_interval"] == 0:
+            (
+                loss_train, 
+                score_train,
+                loss_val,
+                score_val,
+                loss_test,
+                score_test
+            )=eval_on_train_val_test_data_mlp(model, feats_train,labels_train,feats_val, labels_val,feats_test, labels_test,criterion,batch_size,evaluator)
+            print_debug_info(epoch,loss, loss_train,loss_val,loss_test,score_train,score_val,score_test,logger, loss_and_score)
+            count,state=early_stop_counter(count,score_val,best_score_val,epoch,model)
+
+        if count == conf["patience"] or epoch == conf["max_epoch"]:
+            break
+    model.load_state_dict(state)
+    out, _, score_val = evaluate_mini_batch(
+        model, feats, labels, criterion, batch_size, evaluator, idx_val
+    )
+    
+    score_test = evaluator(out[idx_test], labels[idx_test])
+    logger.info(
+        f"Best valid model at epoch: {best_epoch: 3d}, score_val: {score_val :.4f}, score_test: {score_test :.4f}"
+    )
+    return out, score_val, score_test
+
+def run_inductive_mlp(    
+    conf,
+    model,
+    obs_g,
+    g,
+    obs_feats, 
+    obs_labels,
+    feats,
+    labels,
+    indices,
+    criterion,
+    evaluator,
+    optimizer,
+    logger,
+    loss_and_score
+):
+    obs_idx_train, obs_idx_val, obs_idx_test, idx_obs, idx_test_ind = indices
+    batch_size = conf["batch_size"]
+    feats_train, labels_train = obs_feats[obs_idx_train], obs_labels[obs_idx_train]
+    feats_val, labels_val = obs_feats[obs_idx_val], obs_labels[obs_idx_val]
+    feats_test_tran, labels_test_tran = (
+        obs_feats[obs_idx_test],
+        obs_labels[obs_idx_test],
+    )
+    feats_test_ind, labels_test_ind = feats[idx_test_ind], labels[idx_test_ind]
+
+    best_epoch, best_score_val, count = 0, 0, 0
+    for epoch in range(1, conf["max_epoch"] + 1):
+        loss = train_mini_batch(
+            model, feats_train, labels_train, batch_size, criterion, optimizer
+        )
+        if epoch % conf["eval_interval"] == 0:
+            (
+                loss_train, 
+                score_train,
+                loss_val,
+                score_val,
+                loss_test_tran,
+                score_test_tran
+            )=eval_on_train_val_test_data_mlp(model, feats_train,labels_train,feats_val, labels_val,feats_test_tran, labels_test_tran,criterion,batch_size,evaluator)
+            _, loss_test_ind, score_test_ind = evaluate_mini_batch(
+                model,
+                feats_test_ind,
+                labels_test_ind,
+                criterion,
+                batch_size,
+                evaluator,
+            )
+            print_debug_info_inductive(epoch,loss, loss_train,loss_val,loss_test_tran,loss_test_ind,score_train,score_val,score_test_tran,score_test_ind,logger, loss_and_score)
+            count,state=early_stop_counter(count,score_val,best_score_val,epoch,model)
+
+        if count == conf["patience"] or epoch == conf["max_epoch"]:
+            break
+
+    model.load_state_dict(state)
+    obs_out, _, score_val = evaluate_mini_batch(
+        model, obs_feats, obs_labels, criterion, batch_size, evaluator, obs_idx_val
+    )
+    out, _, score_test_ind = evaluate_mini_batch(
+        model, feats, labels, criterion, batch_size, evaluator, idx_test_ind
+    )
+    score_test_tran = evaluator(obs_out[obs_idx_test], obs_labels[obs_idx_test])
+    out[idx_obs] = obs_out
+    logger.info(
+        f"Best valid model at epoch: {best_epoch :3d}, score_val: {score_val :.4f}, score_test_tran: {score_test_tran :.4f}, score_test_ind: {score_test_ind :.4f}"
+    )
+    return out, score_val, score_test_tran, score_test_ind
+
+def distill_run_transductive_mlp(
+        conf,
+        model,
+        g,
+        feats,
+        labels,
+        out_t_all,
+        distill_indices,
+        criterion_l,
+        criterion_t,
+        evaluator,
+        optimizer,
+        logger,
+        loss_and_score,
+    ):
+    set_seed(conf["seed"])
+    device = conf["device"]
+    batch_size = conf["batch_size"]
+    lamb = conf["lamb"]
+    idx_l, idx_t, idx_val, idx_test = distill_indices
+
+    feats = feats.to(device)
+    labels = labels.to(device)
+    out_t_all = out_t_all.to(device)
+
+    feats_l, labels_l = feats[idx_l], labels[idx_l]
+    feats_t, out_t = feats[idx_t], out_t_all[idx_t]
+    feats_val, labels_val = feats[idx_val], labels[idx_val]
+    feats_test, labels_test = feats[idx_test], labels[idx_test]
+
+    best_epoch, best_score_val, count = 0, 0, 0
+    for epoch in range(1, conf["max_epoch"] + 1):
+        loss_l = train_mini_batch(
+            model, feats_l, labels_l, batch_size, criterion_l, optimizer, lamb
+        )
+        loss_t = train_mini_batch(
+            model, feats_t, out_t, batch_size, criterion_t, optimizer, 1 - lamb
+        )
+        loss = loss_l + loss_t
+        if epoch % conf["eval_interval"] == 0:
+            (
+                loss_l, 
+                score_l,
+                loss_val,
+                score_val,
+                loss_test,
+                score_test
+            )=eval_on_train_val_test_data_mlp(model, feats_l,labels_l,feats_val, labels_val,feats_test, labels_test,criterion_l,batch_size,evaluator)
+
+            print_debug_info(epoch,loss, loss_l,loss_val,loss_test,score_l,score_val,score_test,logger, loss_and_score)
+
+            count,state=early_stop_counter(count,score_val,best_score_val,epoch,model)
+
+        if count == conf["patience"] or epoch == conf["max_epoch"]:
+            break
+
+    model.load_state_dict(state)
+    out, _, score_val = evaluate_mini_batch(
+        model, feats, labels, criterion_l, batch_size, evaluator, idx_val
+    )
+    # Use evaluator instead of evaluate to avoid redundant forward pass
+    score_test = evaluator(out[idx_test], labels_test)
+
+    logger.info(
+        f"Best valid model at epoch: {best_epoch: 3d}, score_val: {score_val :.4f}, score_test: {score_test :.4f}"
+    )
+    return out, score_val, score_test
