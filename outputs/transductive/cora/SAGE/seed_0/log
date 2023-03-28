@@ -1,0 +1,42 @@
+Mar13 23-56-49: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0
+Mar13 23-56-49: Total 2485 nodes.
+Mar13 23-56-49: Total 12623 edges.
+Mar13 23-56-49: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 1, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 500, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SAGE'}
+Mar13 23-57-10: Best valid model at epoch:  124, score_val: 0.8333, score_test: 0.8183
+Mar13 23-57-10: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar13 23-57-10: # params 184455
+Mar14 00-01-49: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0
+Mar14 00-01-50: Total 2485 nodes.
+Mar14 00-01-50: Total 12623 edges.
+Mar14 00-01-50: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': True, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SAGE'}
+Mar14 00-01-57: Best valid model at epoch:  11, score_val: 0.8333, score_test: 0.8267
+Mar14 00-01-57: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar14 00-01-57: # params 184455
+Mar14 00-07-42: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0
+Mar14 00-07-42: Total 2485 nodes.
+Mar14 00-07-42: Total 12623 edges.
+Mar14 00-07-42: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': True, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SAGE'}
+Mar14 00-07-54: Best valid model at epoch:  46, score_val: 0.8333, score_test: 0.8295
+Mar14 00-07-54: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar14 00-07-54: # params 184455
+Mar14 08-49-31: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0
+Mar14 08-49-31: Total 2485 nodes.
+Mar14 08-49-31: Total 12623 edges.
+Mar14 08-49-31: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SAGE'}
+Mar14 08-49-49: Best valid model at epoch:  104, score_val: 0.8333, score_test: 0.8183
+Mar14 08-49-49: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar14 08-49-49: # params 184455
+Mar14 08-54-02: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0
+Mar14 08-54-02: Total 2485 nodes.
+Mar14 08-54-02: Total 12623 edges.
+Mar14 08-54-02: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/transductive/cora/SAGE/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SAGE'}
+Mar14 08-54-16: Best valid model at epoch:  58, score_val: 0.8333, score_test: 0.8206
+Mar14 08-54-16: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar14 08-54-16: # params 184455
+Mar21 11-26-05: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SAGE/seed_0
+Mar21 11-26-06: Total 2485 nodes.
+Mar21 11-26-06: Total 12623 edges.
+Mar21 11-26-06: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SAGE/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SAGE'}
+Mar21 11-26-22: Best valid model at epoch:  106, score_val: 0.8381, score_test: 0.8258
+Mar21 11-26-22: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar21 11-26-22: # params 184455

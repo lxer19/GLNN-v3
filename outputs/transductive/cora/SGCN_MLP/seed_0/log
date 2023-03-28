@@ -1,0 +1,77 @@
+Mar20 21-48-03: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar20 21-48-03: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar20 21-48-03: Total 2485 nodes.
+Mar20 21-48-03: Total 12623 edges.
+Mar20 21-48-03: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar20 21-48-10: Best valid model at epoch:  86, score_val: 0.8238, score_test: 0.8056
+Mar20 21-48-10: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar20 21-48-10: # params 184455
+Mar21 00-03-36: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 00-03-36: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 00-03-36: Total 2485 nodes.
+Mar21 00-03-36: Total 12623 edges.
+Mar21 00-03-36: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 00-03-43: Best valid model at epoch:  86, score_val: 0.8000, score_test: 0.8005
+Mar21 00-03-43: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 00-03-43: # params 184455
+Mar21 00-05-37: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 00-05-37: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 00-05-37: Total 2485 nodes.
+Mar21 00-05-37: Total 12623 edges.
+Mar21 00-05-37: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 00-05-43: Best valid model at epoch:  86, score_val: 0.8000, score_test: 0.8005
+Mar21 00-05-43: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 00-05-43: # params 184455
+Mar21 00-12-46: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 00-12-46: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 00-12-46: Total 2485 nodes.
+Mar21 00-12-46: Total 12623 edges.
+Mar21 00-12-46: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 00-12-53: Best valid model at epoch:  86, score_val: 0.8000, score_test: 0.8005
+Mar21 00-12-53: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 00-12-53: # params 184455
+Mar21 00-19-14: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 00-19-14: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 00-19-14: Total 2485 nodes.
+Mar21 00-19-14: Total 12623 edges.
+Mar21 00-19-14: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 00-19-17: Best valid model at epoch:  14, score_val: 0.8048, score_test: 0.8061
+Mar21 00-19-17: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 00-19-17: # params 184455
+Mar21 00-20-50: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 00-20-50: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 00-20-50: Total 2485 nodes.
+Mar21 00-20-50: Total 12623 edges.
+Mar21 00-20-50: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 08-30-57: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 08-30-57: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 08-30-57: Total 2485 nodes.
+Mar21 08-30-57: Total 12623 edges.
+Mar21 08-30-57: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 08-31-00: Best valid model at epoch:  14, score_val: 0.8048, score_test: 0.8061
+Mar21 08-31-00: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 08-31-00: # params 184455
+Mar21 08-36-29: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 08-36-29: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 08-36-29: Total 2485 nodes.
+Mar21 08-36-29: Total 12623 edges.
+Mar21 08-36-29: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 08-36-37: Best valid model at epoch:  126, score_val: 0.8190, score_test: 0.8075
+Mar21 08-36-37: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 08-36-37: # params 184455
+Mar21 18-17-49: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 18-17-49: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 18-17-49: Total 2485 nodes.
+Mar21 18-17-49: Total 12623 edges.
+Mar21 18-17-49: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 18-17-58: Best valid model at epoch:  126, score_val: 0.8190, score_test: 0.8075
+Mar21 18-17-58: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 18-17-58: # params 184455
+Mar21 19-08-53: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0
+Mar21 19-08-53: out_t_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN/seed_0
+Mar21 19-08-53: Total 2485 nodes.
+Mar21 19-08-53: Total 12623 edges.
+Mar21 19-08-53: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'student': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/SGCN_MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 19-09-01: Best valid model at epoch:  126, score_val: 0.8190, score_test: 0.8075
+Mar21 19-09-01: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 19-09-01: # params 184455

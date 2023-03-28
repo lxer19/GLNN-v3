@@ -1,0 +1,7 @@
+Mar21 11-33-28: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/pubmed/MLP/seed_3
+Mar21 11-33-34: Total 19717 nodes.
+Mar21 11-33-34: Total 108365 edges.
+Mar21 11-33-35: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.4, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.005, 'weight_decay': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/pubmed/MLP/seed_3'), 'feat_dim': 500, 'label_dim': 3, 'model_name': 'MLP'}
+Mar21 11-33-41: Best valid model at epoch:  46, score_val: 0.6778, score_test: 0.6754
+Mar21 11-33-41: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.4
+Mar21 11-33-41: # params 64515

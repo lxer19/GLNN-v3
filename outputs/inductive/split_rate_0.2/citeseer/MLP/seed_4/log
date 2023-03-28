@@ -1,0 +1,14 @@
+Mar14 12-01-18: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/citeseer/MLP/seed_4
+Mar14 12-01-18: Total 2110 nodes.
+Mar14 12-01-18: Total 9446 edges.
+Mar14 12-01-18: conf: {'device': 'cpu', 'seed': 4, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.1, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/citeseer/MLP/seed_4'), 'feat_dim': 3703, 'label_dim': 6, 'model_name': 'MLP'}
+Mar14 12-01-20: Best valid model at epoch:   4, score_val: 0.6222, score_test_tran: 0.5767, score_test_ind: 0.4807
+Mar14 12-01-20: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.1
+Mar14 12-01-20: # params 474886
+Mar21 12-00-36: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/citeseer/MLP/seed_4
+Mar21 12-00-36: Total 2110 nodes.
+Mar21 12-00-36: Total 9446 edges.
+Mar21 12-00-36: conf: {'device': 'cpu', 'seed': 4, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.1, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/citeseer/MLP/seed_4'), 'feat_dim': 3703, 'label_dim': 6, 'model_name': 'MLP'}
+Mar21 12-00-38: Best valid model at epoch:   4, score_val: 0.6222, score_test_tran: 0.5767, score_test_ind: 0.4807
+Mar21 12-00-38: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.1
+Mar21 12-00-38: # params 474886

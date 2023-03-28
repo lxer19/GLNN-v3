@@ -1,0 +1,7 @@
+Mar21 12-03-54: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/pubmed/APPNP/seed_3
+Mar21 12-03-55: Total 19717 nodes.
+Mar21 12-03-55: Total 108365 edges.
+Mar21 12-03-55: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.5, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/pubmed/APPNP/seed_3'), 'feat_dim': 500, 'label_dim': 3, 'model_name': 'APPNP'}
+Mar21 12-04-10: Best valid model at epoch:  21, score_val: 0.7667, score_test_tran: 0.7214, score_test_ind: 0.7115
+Mar21 12-04-10: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.5
+Mar21 12-04-10: # params 64515

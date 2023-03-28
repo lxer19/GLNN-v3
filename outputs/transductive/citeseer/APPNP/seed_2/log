@@ -1,0 +1,7 @@
+Mar21 11-34-31: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/citeseer/APPNP/seed_2
+Mar21 11-34-31: Total 2110 nodes.
+Mar21 11-34-31: Total 9446 edges.
+Mar21 11-34-31: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'APPNP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.5, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/citeseer/APPNP/seed_2'), 'feat_dim': 3703, 'label_dim': 6, 'model_name': 'APPNP'}
+Mar21 11-34-36: Best valid model at epoch:   4, score_val: 0.7111, score_test: 0.7552
+Mar21 11-34-36: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.5
+Mar21 11-34-36: # params 474886

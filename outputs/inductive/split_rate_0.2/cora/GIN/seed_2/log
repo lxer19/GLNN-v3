@@ -1,0 +1,49 @@
+Mar21 00-31-45: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2
+Mar21 00-31-45: Total 2485 nodes.
+Mar21 00-31-45: Total 12623 edges.
+Mar21 00-31-45: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GIN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GIN'}
+Mar21 00-32-21: Best valid model at epoch: 172, score_val: 0.8048, score_test_tran: 0.8132, score_test_ind: 0.8361
+Mar21 00-32-21: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 00-32-21: # params 10038
+Mar21 10-51-34: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2
+Mar21 10-51-34: Total 2485 nodes.
+Mar21 10-51-34: Total 12623 edges.
+Mar21 10-51-34: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GIN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GIN'}
+Mar21 10-51-47: Best valid model at epoch: 200, score_val: 0.0000, score_test_tran: 0.0018, score_test_ind: 0.0000
+Mar21 10-51-47: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 10-51-47: # params 2
+Mar21 10-55-08: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2
+Mar21 10-55-08: Total 2485 nodes.
+Mar21 10-55-08: Total 12623 edges.
+Mar21 10-55-08: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GIN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GIN'}
+Mar21 10-55-20: Best valid model at epoch: 200, score_val: 0.0000, score_test_tran: 0.0018, score_test_ind: 0.0000
+Mar21 10-55-20: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 10-55-20: # params 2
+Mar21 10-59-55: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2
+Mar21 10-59-55: Total 2485 nodes.
+Mar21 10-59-55: Total 12623 edges.
+Mar21 10-59-55: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GIN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GIN'}
+Mar21 11-00-07: Best valid model at epoch: 200, score_val: 0.0000, score_test_tran: 0.0018, score_test_ind: 0.0000
+Mar21 11-00-07: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 11-00-07: # params 4
+Mar21 15-18-58: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2
+Mar21 15-18-59: Total 2485 nodes.
+Mar21 15-18-59: Total 12623 edges.
+Mar21 15-18-59: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GIN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GIN'}
+Mar21 15-19-12: Best valid model at epoch: 200, score_val: 0.0000, score_test_tran: 0.0018, score_test_ind: 0.0000
+Mar21 15-19-12: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 15-19-12: # params 4
+Mar21 18-16-32: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2
+Mar21 18-16-33: Total 2485 nodes.
+Mar21 18-16-33: Total 12623 edges.
+Mar21 18-16-33: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GIN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GIN'}
+Mar21 18-16-47: Best valid model at epoch: 200, score_val: 0.0000, score_test_tran: 0.0018, score_test_ind: 0.0000
+Mar21 18-16-47: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 18-16-47: # params 4
+Mar21 18-59-30: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2
+Mar21 18-59-31: Total 2485 nodes.
+Mar21 18-59-31: Total 12623 edges.
+Mar21 18-59-31: conf: {'device': 'cpu', 'seed': 2, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GIN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GIN/seed_2'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GIN'}
+Mar21 18-59-44: Best valid model at epoch: 107, score_val: 0.7667, score_test_tran: 0.7740, score_test_ind: 0.8103
+Mar21 18-59-44: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 18-59-44: # params 92233

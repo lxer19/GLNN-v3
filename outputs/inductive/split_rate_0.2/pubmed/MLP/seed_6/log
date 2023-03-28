@@ -1,0 +1,7 @@
+Mar14 10-40-13: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/pubmed/MLP/seed_6
+Mar14 10-40-14: Total 19717 nodes.
+Mar14 10-40-14: Total 108365 edges.
+Mar14 10-40-14: conf: {'device': 'cpu', 'seed': 6, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'pubmed', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.4, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.005, 'weight_decay': 0, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/pubmed/MLP/seed_6'), 'feat_dim': 500, 'label_dim': 3, 'model_name': 'MLP'}
+Mar14 10-40-21: Best valid model at epoch:  93, score_val: 0.6778, score_test_tran: 0.6173, score_test_ind: 0.6164
+Mar14 10-40-21: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.4
+Mar14 10-40-21: # params 64515

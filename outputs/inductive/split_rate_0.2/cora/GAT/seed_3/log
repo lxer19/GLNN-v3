@@ -1,0 +1,21 @@
+Mar14 12-31-10: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/cora/GAT/seed_3
+Mar14 12-31-10: Total 2485 nodes.
+Mar14 12-31-10: Total 12623 edges.
+Mar14 12-31-10: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/cora/GAT/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'num_heads': 8, 'attn_dropout_ratio': 0.3, 'model_name': 'GAT'}
+Mar14 12-31-16: Best valid model at epoch:  12, score_val: 0.8333, score_test_tran: 0.7922, score_test_ind: 0.8290
+Mar14 12-31-16: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar14 12-31-16: # params 184725
+Mar14 14-04-45: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/cora/GAT/seed_3
+Mar14 14-04-45: Total 2485 nodes.
+Mar14 14-04-45: Total 12623 edges.
+Mar14 14-04-45: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/cora/GAT/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'num_heads': 8, 'attn_dropout_ratio': 0.3, 'model_name': 'GAT'}
+Mar14 14-04-50: Best valid model at epoch:  12, score_val: 0.8333, score_test_tran: 0.7922, score_test_ind: 0.8290
+Mar14 14-04-50: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar14 14-04-50: # params 184725
+Mar21 11-40-39: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GAT/seed_3
+Mar21 11-40-39: Total 2485 nodes.
+Mar21 11-40-39: Total 12623 edges.
+Mar21 11-40-39: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GAT', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/GAT/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'num_heads': 8, 'attn_dropout_ratio': 0.3, 'model_name': 'GAT'}
+Mar21 11-40-44: Best valid model at epoch:  12, score_val: 0.8333, score_test_tran: 0.7922, score_test_ind: 0.8290
+Mar21 11-40-44: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 11-40-44: # params 184725

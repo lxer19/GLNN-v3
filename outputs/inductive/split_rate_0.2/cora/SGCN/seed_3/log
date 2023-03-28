@@ -1,0 +1,74 @@
+Mar20 22-13-32: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar20 22-13-32: Total 2485 nodes.
+Mar20 22-13-32: Total 12623 edges.
+Mar20 22-13-32: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar20 22-13-35: Best valid model at epoch:  25, score_val: 0.8524, score_test_tran: 0.7781, score_test_ind: 0.7822
+Mar20 22-13-35: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar20 22-13-35: # params 92231
+Mar20 22-15-15: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar20 22-15-15: Total 2485 nodes.
+Mar20 22-15-15: Total 12623 edges.
+Mar20 22-15-15: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar20 22-15-29: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar20 22-15-30: Total 2485 nodes.
+Mar20 22-15-30: Total 12623 edges.
+Mar20 22-15-30: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar20 22-15-33: Best valid model at epoch:  25, score_val: 0.8524, score_test_tran: 0.7781, score_test_ind: 0.7822
+Mar20 22-15-33: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar20 22-15-33: # params 92231
+Mar20 23-01-11: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar20 23-01-11: Total 2485 nodes.
+Mar20 23-01-11: Total 12623 edges.
+Mar20 23-01-11: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar20 23-01-14: Best valid model at epoch:  25, score_val: 0.8524, score_test_tran: 0.7781, score_test_ind: 0.7822
+Mar20 23-01-14: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar20 23-01-14: # params 92231
+Mar20 23-13-37: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar20 23-13-37: Total 2485 nodes.
+Mar20 23-13-37: Total 12623 edges.
+Mar20 23-13-37: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar20 23-13-43: Best valid model at epoch:  51, score_val: 0.7667, score_test_tran: 0.7225, score_test_ind: 0.7541
+Mar20 23-13-43: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar20 23-13-43: # params 10038
+Mar20 23-51-10: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar20 23-51-10: Total 2485 nodes.
+Mar20 23-51-10: Total 12623 edges.
+Mar20 23-51-10: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar20 23-51-16: Best valid model at epoch:  11, score_val: 0.8429, score_test_tran: 0.7752, score_test_ind: 0.7752
+Mar20 23-51-16: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar20 23-51-16: # params 10038
+Mar20 23-57-06: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar20 23-57-06: Total 2485 nodes.
+Mar20 23-57-06: Total 12623 edges.
+Mar20 23-57-06: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar20 23-57-12: Best valid model at epoch:  11, score_val: 0.8429, score_test_tran: 0.7752, score_test_ind: 0.7752
+Mar20 23-57-12: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar20 23-57-12: # params 10038
+Mar21 00-09-18: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar21 00-09-19: Total 2485 nodes.
+Mar21 00-09-19: Total 12623 edges.
+Mar21 00-09-19: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar21 00-09-28: Best valid model at epoch:  15, score_val: 0.8524, score_test_tran: 0.7892, score_test_ind: 0.8033
+Mar21 00-09-28: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 00-09-28: # params 10038
+Mar21 00-22-12: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar21 00-22-12: Total 2485 nodes.
+Mar21 00-22-12: Total 12623 edges.
+Mar21 00-22-12: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar21 00-22-23: Best valid model at epoch:  15, score_val: 0.8524, score_test_tran: 0.7922, score_test_ind: 0.8033
+Mar21 00-22-23: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 00-22-23: # params 10038
+Mar21 18-15-17: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar21 18-15-17: Total 2485 nodes.
+Mar21 18-15-17: Total 12623 edges.
+Mar21 18-15-17: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar21 18-15-29: Best valid model at epoch:  15, score_val: 0.8524, score_test_tran: 0.7922, score_test_ind: 0.8033
+Mar21 18-15-29: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 18-15-29: # params 10038
+Mar21 18-52-26: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3
+Mar21 18-52-26: Total 2485 nodes.
+Mar21 18-52-26: Total 12623 edges.
+Mar21 18-52-26: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/inductive/split_rate_0.2/cora/SGCN/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar21 18-52-37: Best valid model at epoch:  15, score_val: 0.8524, score_test_tran: 0.7922, score_test_ind: 0.8033
+Mar21 18-52-37: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar21 18-52-37: # params 10038

@@ -1,0 +1,21 @@
+Mar21 09-34-21: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/GATv2/seed_3
+Mar21 09-34-21: Total 2485 nodes.
+Mar21 09-34-21: Total 12623 edges.
+Mar21 09-34-21: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GATv2', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/GATv2/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'num_heads': 8, 'attn_dropout_ratio': 0.3, 'model_name': 'GATv2'}
+Mar21 09-34-32: Best valid model at epoch:  109, score_val: 0.8619, score_test: 0.8028
+Mar21 09-34-32: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 09-34-32: # params 184725
+Mar21 18-13-26: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/GATv2/seed_3
+Mar21 18-13-27: Total 2485 nodes.
+Mar21 18-13-27: Total 12623 edges.
+Mar21 18-13-27: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GATv2', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/GATv2/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'num_heads': 8, 'attn_dropout_ratio': 0.3, 'model_name': 'GATv2'}
+Mar21 18-13-41: Best valid model at epoch:  109, score_val: 0.8619, score_test: 0.8028
+Mar21 18-13-41: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 18-13-41: # params 184725
+Mar21 18-45-32: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/GATv2/seed_3
+Mar21 18-45-32: Total 2485 nodes.
+Mar21 18-45-32: Total 12623 edges.
+Mar21 18-45-32: conf: {'device': 'cpu', 'seed': 3, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GATv2', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.01, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/GATv2/seed_3'), 'feat_dim': 1433, 'label_dim': 7, 'num_heads': 8, 'attn_dropout_ratio': 0.3, 'model_name': 'GATv2'}
+Mar21 18-45-43: Best valid model at epoch:  109, score_val: 0.8619, score_test: 0.8028
+Mar21 18-45-43: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 18-45-43: # params 184725

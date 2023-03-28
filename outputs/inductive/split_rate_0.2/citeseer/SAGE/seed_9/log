@@ -1,0 +1,14 @@
+Mar14 07-48-38: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/citeseer/SAGE/seed_9
+Mar14 07-48-38: Total 2110 nodes.
+Mar14 07-48-38: Total 9446 edges.
+Mar14 07-48-38: conf: {'device': 'cpu', 'seed': 9, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': True, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/citeseer/SAGE/seed_9'), 'feat_dim': 3703, 'label_dim': 6, 'model_name': 'SAGE'}
+Mar14 07-49-05: Best valid model at epoch:  34, score_val: 0.6833, score_test_tran: 0.6416, score_test_ind: 0.6713
+Mar14 07-49-05: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar14 07-49-05: # params 474886
+Mar14 09-49-54: output_dir: /Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/citeseer/SAGE/seed_9
+Mar14 09-49-54: Total 2110 nodes.
+Mar14 09-49-54: Total 9446 edges.
+Mar14 09-49-54: conf: {'device': 'cpu', 'seed': 9, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'citeseer', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.0005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Research/AI research/gnn/graphless-neural-networks-main/outputs/inductive/split_rate_0.2/citeseer/SAGE/seed_9'), 'feat_dim': 3703, 'label_dim': 6, 'model_name': 'SAGE'}
+Mar14 09-50-21: Best valid model at epoch:  35, score_val: 0.6889, score_test_tran: 0.6554, score_test_ind: 0.6823
+Mar14 09-50-21: num_layers: 2. hidden_dim: 128. dropout_ratio: 0
+Mar14 09-50-21: # params 474886

@@ -1,0 +1,14 @@
+Mar21 11-04-57: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/MLP/seed_4
+Mar21 11-04-57: Total 2485 nodes.
+Mar21 11-04-57: Total 12623 edges.
+Mar21 11-04-57: conf: {'device': 'cpu', 'seed': 4, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/MLP/seed_4'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 11-04-59: Best valid model at epoch:  50, score_val: 0.6190, score_test: 0.5845
+Mar21 11-04-59: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 11-04-59: # params 184455
+Mar21 11-32-59: output_dir: /Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/MLP/seed_4
+Mar21 11-32-59: Total 2485 nodes.
+Mar21 11-32-59: Total 12623 edges.
+Mar21 11-32-59: conf: {'device': 'cpu', 'seed': 4, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/graphless-neural-networks-v2/outputs/transductive/cora/MLP/seed_4'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar21 11-33-01: Best valid model at epoch:  50, score_val: 0.6190, score_test: 0.5845
+Mar21 11-33-01: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar21 11-33-01: # params 184455
