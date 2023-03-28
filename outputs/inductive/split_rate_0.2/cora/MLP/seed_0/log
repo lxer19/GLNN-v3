@@ -12,3 +12,25 @@ Mar21 12-00-13: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log
 Mar21 12-00-15: Best valid model at epoch:  62, score_val: 0.5952, score_test_tran: 0.5673, score_test_ind: 0.5831
 Mar21 12-00-15: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
 Mar21 12-00-15: # params 184455
+Mar28 11-01-51: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0
+Mar28 11-01-51: Total 2485 nodes.
+Mar28 11-01-51: Total 12623 edges.
+Mar28 11-01-51: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 1, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar28 11-15-45: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0
+Mar28 11-15-45: Total 2485 nodes.
+Mar28 11-15-45: Total 12623 edges.
+Mar28 11-15-45: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 1, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar28 11-16-15: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0
+Mar28 11-16-15: Total 2485 nodes.
+Mar28 11-16-15: Total 12623 edges.
+Mar28 11-16-15: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 1, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar28 11-16-19: Best valid model at epoch:   0, score_val: 0.5952, score_test_tran: 0.5574, score_test_ind: 0.5972
+Mar28 11-16-19: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar28 11-16-19: # params 184455
+Mar28 11-44-25: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0
+Mar28 11-44-25: Total 2485 nodes.
+Mar28 11-44-25: Total 12623 edges.
+Mar28 11-44-25: conf: {'device': 'cpu', 'seed': 0, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 1, 'exp_setting': 'ind', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'MLP', 'num_layers': 2, 'hidden_dim': 128, 'dropout_ratio': 0.6, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.005, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/inductive/split_rate_0.2/cora/MLP/seed_0'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'MLP'}
+Mar28 11-44-29: Best valid model at epoch:   0, score_val: 0.5952, score_test_tran: 0.5574, score_test_ind: 0.5972
+Mar28 11-44-29: num_layers: 2. hidden_dim: 128. dropout_ratio: 0.6
+Mar28 11-44-29: # params 184455
