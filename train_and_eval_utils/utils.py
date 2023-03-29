@@ -16,7 +16,7 @@ def print_debug_info(epoch,loss, loss_train,loss_val,loss_test,score_train,score
         ]
     ]
 
-def early_stop_counter(count,score_val,best_score_val,epoch,model):
+def early_stop_counter(epoch,model,score_val, best_epoch, best_score_val, count,state):
     if score_val >= best_score_val:
         best_epoch = epoch
         best_score_val = score_val
@@ -24,7 +24,7 @@ def early_stop_counter(count,score_val,best_score_val,epoch,model):
         count = 0
     else:
         count += 1
-    return count,state
+    return best_epoch, best_score_val, count,state
 
 def print_debug_info_inductive(epoch,loss, loss_train,loss_val,loss_test_tran,loss_test_ind,score_train,score_val,score_test_tran,
             score_test_ind,logger, loss_and_score):
@@ -45,10 +45,3 @@ def print_debug_info_inductive(epoch,loss, loss_train,loss_val,loss_test_tran,lo
         ]
     ]
 
-
-    
-    score_test = evaluator(out[idx_test], labels[idx_test])
-    logger.info(
-        f"Best valid model at epoch: {best_epoch: 3d}, score_val: {score_val :.4f}, score_test: {score_test :.4f}"
-    )
-    return out, score_val, score_test

@@ -361,7 +361,7 @@ class SGCN(nn.Module):
         self.activation = activation
         self.dropout = nn.Dropout(dropout_ratio)
         self.norms = nn.ModuleList()
-        self.k=4
+        self.k=1
         self.conv=SGConv(input_dim, output_dim, k=self.k)
 
     def forward(self, g, feats):

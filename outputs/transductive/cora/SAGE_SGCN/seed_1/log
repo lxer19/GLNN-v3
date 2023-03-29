@@ -1,0 +1,8 @@
+Mar28 21-08-46: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/SAGE_SGCN/seed_1
+Mar28 21-08-46: out_t_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/SAGE/seed_1
+Mar28 21-08-47: Total 2485 nodes.
+Mar28 21-08-47: Total 12623 edges.
+Mar28 21-08-47: conf: {'device': 'cpu', 'seed': 1, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 5, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'SAGE', 'student': 'SGCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'lamb': 0, 'out_t_path': 'outputs', 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/SAGE_SGCN/seed_1'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'SGCN'}
+Mar28 21-08-58: Best valid model at epoch:  200, score_val: 0.8190, score_test: 0.7902
+Mar28 21-08-58: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Mar28 21-08-58: # params 10038

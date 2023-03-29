@@ -346,6 +346,7 @@ def run(args):
         out, score_val, score_test_tran, score_test_ind = distill_run_inductive(
             conf,
             model,
+            g,
             feats,
             labels,
             out_t,
