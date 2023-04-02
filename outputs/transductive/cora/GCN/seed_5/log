@@ -19,3 +19,38 @@ Mar27 21-58-15: conf: {'device': 'cpu', 'seed': 5, 'log_level': 20, 'console_log
 Mar27 21-58-19: Best valid model at epoch:  58, score_val: 0.8714, score_test: 0.8197
 Mar27 21-58-19: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
 Mar27 21-58-19: # params 92231
+Apr01 20-34-17: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5
+Apr01 20-34-17: Total 2485 nodes.
+Apr01 20-34-17: Total 12623 edges.
+Apr01 20-34-17: conf: {'device': 'cpu', 'seed': 5, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GCN'}
+Apr01 20-34-20: Best valid model at epoch:  58, score_val: 0.8714, score_test: 0.8197
+Apr01 20-34-20: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr01 20-34-20: # params 92231
+Apr01 20-35-49: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5
+Apr01 20-35-49: Total 2485 nodes.
+Apr01 20-35-49: Total 12623 edges.
+Apr01 20-35-49: conf: {'device': 'cpu', 'seed': 5, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GCN'}
+Apr01 20-35-53: Best valid model at epoch:  58, score_val: 0.8714, score_test: 0.8197
+Apr01 20-35-53: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr01 20-35-53: # params 92231
+Apr01 20-38-59: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5
+Apr01 20-38-59: Total 2485 nodes.
+Apr01 20-38-59: Total 12623 edges.
+Apr01 20-38-59: conf: {'device': 'cpu', 'seed': 5, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GCN'}
+Apr01 20-39-03: Best valid model at epoch:  58, score_val: 0.8714, score_test: 0.8197
+Apr01 20-39-03: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr01 20-39-03: # params 92231
+Apr01 20-43-29: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5
+Apr01 20-43-29: Total 2485 nodes.
+Apr01 20-43-29: Total 12623 edges.
+Apr01 20-43-29: conf: {'device': 'cpu', 'seed': 5, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': False, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GCN'}
+Apr01 20-43-32: Best valid model at epoch:  58, score_val: 0.8714, score_test: 0.8197
+Apr01 20-43-32: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr01 20-43-32: # params 92231
+Apr01 21-37-18: output_dir: /Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5
+Apr01 21-37-18: Total 2485 nodes.
+Apr01 21-37-18: Total 12623 edges.
+Apr01 21-37-18: conf: {'device': 'cpu', 'seed': 5, 'log_level': 20, 'console_log': False, 'output_path': 'outputs', 'num_exp': 10, 'exp_setting': 'tran', 'eval_interval': 1, 'save_results': True, 'dataset': 'cora', 'data_path': './data', 'labelrate_train': 20, 'labelrate_val': 30, 'split_idx': 0, 'model_config_path': './train.conf.yaml', 'teacher': 'GCN', 'num_layers': 2, 'hidden_dim': 64, 'dropout_ratio': 0.8, 'norm_type': 'none', 'batch_size': 512, 'fan_out': '5,5', 'num_workers': 0, 'learning_rate': 0.01, 'weight_decay': 0.001, 'max_epoch': 200, 'patience': 50, 'feature_noise': 0, 'split_rate': 0.2, 'compute_min_cut': False, 'feature_aug_k': 0, 'output_dir': PosixPath('/Users/lxer/Documents/GitHub/gnn-study/GLNN-v3/outputs/transductive/cora/GCN/seed_5'), 'feat_dim': 1433, 'label_dim': 7, 'model_name': 'GCN'}
+Apr01 21-37-22: Best valid model at epoch:  58, score_val: 0.8714, score_test: 0.8197
+Apr01 21-37-22: num_layers: 2. hidden_dim: 64. dropout_ratio: 0.8
+Apr01 21-37-22: # params 92231

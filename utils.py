@@ -131,7 +131,12 @@ def get_evaluator(dataset):
     if dataset in CPF_data + NonHom_data + BGNN_data:
 
         def evaluator(out, labels):
+            print(out)
             pred = out.argmax(1)
+            print(pred)
+            print(labels)
+            print(pred.eq(labels))
+            print(pred.eq(labels).float().mean().item())
             return pred.eq(labels).float().mean().item()
 
     elif dataset in OGB_data:
@@ -144,14 +149,6 @@ def get_evaluator(dataset):
 
     else:
         raise ValueError("Unknown dataset")
-
-    return evaluator
-
-
-def get_evaluator(dataset):
-    def evaluator(out, labels):
-        pred = out.argmax(1)
-        return pred.eq(labels).float().mean().item()
 
     return evaluator
 
